@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41321c2a651294e3786f6ce02b06edf3, type: 3}
+  m_Name: ChessPlacementConfig
+  m_EditorClassIdentifier: 
+  _figurePlacements:
+  - FigureInfo: {fileID: 11400000, guid: 545cc113af2ce4426ac896355b324454, type: 2}
+    WhiteFigurePositions:
+    - {x: 1, y: 3}
+    - {x: 1, y: 6}
+    BlackFigurePositions:
+    - {x: 8, y: 3}
+    - {x: 8, y: 6}
+  - FigureInfo: {fileID: 11400000, guid: ffe3a82929d1b4c92b5262d4855b28c8, type: 2}
+    WhiteFigurePositions:
+    - {x: 1, y: 4}
+    BlackFigurePositions:
+    - {x: 8, y: 4}
+  - FigureInfo: {fileID: 11400000, guid: 00228c12669ae4e3cb8db2c308eebee3, type: 2}
+    WhiteFigurePositions:
+    - {x: 1, y: 2}
+    - {x: 1, y: 7}
+    BlackFigurePositions:
+    - {x: 8, y: 2}
+    - {x: 8, y: 7}
+  - FigureInfo: {fileID: 11400000, guid: 1f9443de29662461e8ba781facd6cc78, type: 2}
+    WhiteFigurePositions:
+    - {x: 2, y: 1}
+    - {x: 2, y: 2}
+    - {x: 2, y: 3}
+    - {x: 2, y: 4}
+    - {x: 2, y: 5}
+    - {x: 2, y: 6}
+    - {x: 2, y: 7}
+    - {x: 2, y: 8}
+    BlackFigurePositions:
+    - {x: 7, y: 1}
+    - {x: 7, y: 2}
+    - {x: 7, y: 3}
+    - {x: 7, y: 4}
+    - {x: 7, y: 5}
+    - {x: 7, y: 6}
+    - {x: 7, y: 7}
+    - {x: 7, y: 8}
+  - FigureInfo: {fileID: 11400000, guid: 8d25ddde7e0ec445ea043e05ca406124, type: 2}
+    WhiteFigurePositions:
+    - {x: 1, y: 5}
+    BlackFigurePositions:
+    - {x: 8, y: 5}
+  - FigureInfo: {fileID: 11400000, guid: 4e946014a77404481addbc267065fab7, type: 2}
+    WhiteFigurePositions:
+    - {x: 1, y: 1}
+    - {x: 1, y: 8}
+    BlackFigurePositions:
+    - {x: 8, y: 1}
+    - {x: 8, y: 8}
