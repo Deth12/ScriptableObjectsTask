@@ -9,6 +9,7 @@ public class Cell : MonoBehaviour
     private Vector2 _coordinate;
 
     public Vector2 Coordinate => _coordinate;
+    
     public bool IsOccupied => _placedFigure != null;
 
     [Header("Selection settings")]
@@ -27,6 +28,11 @@ public class Cell : MonoBehaviour
     public Vector3 GetFigurePlacementPosition()
     {
         return new Vector3(transform.position.x, _placedFigureHeight, transform.position.z);
+    }
+
+    public FigureSide GetPlacedFigureSide()
+    {
+        return _placedFigure.Side;
     }
     
     public void SetCoordinate(int row, int col)

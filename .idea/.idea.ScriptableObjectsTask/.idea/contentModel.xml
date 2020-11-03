@@ -7,6 +7,14 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Free Low Poly Chess Set" t="Include">
+          <e p="Example" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="CameraRotate.cs" t="Include" />
+            </e>
+          </e>
+          <e p="README.txt" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
@@ -26,12 +34,14 @@
         <e p="Scripts" t="Include">
           <e p="Board.cs" t="Include" />
           <e p="Cell.cs" t="Include" />
-          <e p="ChessPlacementConfig.cs" t="Include" />
           <e p="Figure.cs" t="Include" />
-          <e p="FigureInfo.cs" t="Include" />
           <e p="FigureMovement.cs" t="Include" />
           <e p="FigureSide.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
+          <e p="SO" t="Include">
+            <e p="ChessPlacementConfig.cs" t="Include" />
+            <e p="FigureInfo.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

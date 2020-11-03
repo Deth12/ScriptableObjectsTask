@@ -46,6 +46,11 @@ public class PlayerInput : MonoBehaviour
                 _selectedCell.OnDeselect();
                 _selectedCell = null;
             }
+            else
+            {
+                _selectedCell.OnDeselect();
+                _selectedCell = null;
+            }
         }
     }
 

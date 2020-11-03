@@ -23,11 +23,15 @@ public class Figure : MonoBehaviour
 
     public bool TryMove(Cell targetCell)
     {
-        Debug.Log(_figureMovement);
         if (!_figureMovement.IsMovementAvailiable(_currentCell, targetCell))
             return false;
-        Move(targetCell);
-        return true;
+        if (targetCell.IsOccupied && targetCell.GetPlacedFigureSide() == Side)
+            return false;
+        else
+        {
+            Move(targetCell);
+            return true;
+        }
     }
 
     private void Move(Cell cell)

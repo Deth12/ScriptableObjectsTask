@@ -16,4 +16,4 @@ MonoBehaviour:
     type: 3}
   _figureObjectBlack: {fileID: 1672242659374470, guid: f005021ceced8b240983e71a3d481180,
     type: 3}
-  _figureMovement: {fileID: 0}
+  _figureMovement: {fileID: 11400000, guid: 4204785a37da94ba3b301872d78c43fc, type: 2}
