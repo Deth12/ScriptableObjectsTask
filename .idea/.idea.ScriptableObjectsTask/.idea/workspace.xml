@@ -12,7 +12,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FigureSide.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Board.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FigureMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -24,8 +23,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FigureMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChessPlacementConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Figure.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
       </list>
     </option>
   </component>
@@ -69,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604404195792</updated>
-      <workItem from="1604404197712" duration="11688000" />
+      <workItem from="1604404197712" duration="11975000" />
     </task>
     <servers />
   </component>

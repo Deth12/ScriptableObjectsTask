@@ -23,9 +23,10 @@ public class PlayerInput : MonoBehaviour
 
     private void TrySelectCell()
     {
-        _selectedCell = TryGetCell();
-        if (_selectedCell != null)
+        Cell c = TryGetCell();
+        if (c != null & c.IsOccupied)
         {
+            _selectedCell = c;
             _selectedCell.OnSelect();
         }
     }

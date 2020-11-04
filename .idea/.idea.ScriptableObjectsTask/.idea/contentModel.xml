@@ -35,12 +35,12 @@
           <e p="Board.cs" t="Include" />
           <e p="Cell.cs" t="Include" />
           <e p="Figure.cs" t="Include" />
-          <e p="FigureMovement.cs" t="Include" />
           <e p="FigureSide.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
           <e p="SO" t="Include">
             <e p="ChessPlacementConfig.cs" t="Include" />
             <e p="FigureInfo.cs" t="Include" />
+            <e p="FigureMovement.cs" t="Include" />
           </e>
         </e>
       </e>
