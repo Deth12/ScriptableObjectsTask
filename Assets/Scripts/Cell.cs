@@ -13,16 +13,18 @@ public class Cell : MonoBehaviour
     public bool IsOccupied => _placedFigure != null;
 
     [Header("Selection settings")]
-    [SerializeField] private Color _defaultColor = Color.white;
     [SerializeField] private Color _selectedColor = Color.yellow;
     [SerializeField] private Color _hoverColor = Color.green;
+    private Color _defaultColor;
 
+    
     private Material _material;
     private bool _isSelected = false;
     
     private void Start()
     {
         _material = GetComponent<Renderer>().material;
+        _defaultColor = _material.color;
     }
 
     public Vector3 GetFigurePlacementPosition()

@@ -22,9 +22,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Board.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FigureMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChessPlacementConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Figure.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cell.cs" />
       </list>
     </option>
   </component>
@@ -68,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604404195792</updated>
-      <workItem from="1604404197712" duration="11975000" />
+      <workItem from="1604404197712" duration="12184000" />
     </task>
     <servers />
   </component>
